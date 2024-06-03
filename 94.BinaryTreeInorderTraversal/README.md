@@ -30,6 +30,6 @@ To solve this problem, we use a recursive approach for the inorder traversal. Th
 5. **Return Result**: After the traversal is complete, return the result list containing the inorder traversal of the binary tree.
 
 ## Space and Time Complexity
-- **Time Complexity**: The time complexity of the recursive inorder traversal is \(O(n)\), where \(n\) is the number of nodes in the binary tree. This is because each node is visited exactly once.
+- **Time Complexity**: The time complexity of the recursive inorder traversal is (O(n)), where (n) is the number of nodes in the binary tree. This is because each node is visited exactly once.
 
-- **Space Complexity**: The space complexity depends on the depth of the recursion stack. In the worst case, the space complexity is \(O(h)\), where \(h\) is the height of the tree. In the average case for a balanced tree, the space complexity will be \(O(\log n)\), but in the worst case for a skewed tree, it could be \(O(n)\).
+- **Space Complexity**: The space complexity depends on the depth of the recursion stack. In the worst case, the space complexity is (O(h)), where (h) is the height of the tree. In the average case for a balanced tree, the space complexity will be (O(log n)), but in the worst case for a skewed tree, it could be (O(n)).
